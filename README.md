@@ -17,3 +17,16 @@
 
 6. 가상환경 비활성화
    deactivate
+
+
+
+# 파이썬 가상환경 uv로 생성
+
+1. uv를 설치해줍니다.
+   pip install uv
+
+2. uv 가상환경 생성
+   uv venv .venv
+
+3. .venv 폴더가 생성된 후에 가상환경을 활성화 해줍니다.
+   source .venv/bin/activate
